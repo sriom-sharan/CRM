@@ -21,6 +21,8 @@
     ```bash
     DATABASE_URL=mongodb+srv://<your-mongodb-url>
     PORT=8000
+    EMAIL="abc...@gmail.com"
+    PASS="yourGoogleApppassword"
     ```
 
 5. Start the application:

@@ -38,7 +38,7 @@
 
 | HTTP Verbs | Endpoints      | Action                                  | Parameters |
 | ---------- | -------------- | --------------------------------------- | ---------- |
-| GET        | /api/reports   | Retrieve a report with lead and campaign info | `toEmail` (optional) - Send the report to the specified email |
+| GET        | /api/reports   | Retrieve a report with lead and campaign info | `toEmail` (required) - Send the report to the specified email |
 | GET        | /api/leads     | Retrieve all lead data                  | None       |
 | GET        | /api/campaigns | Retrieve all campaign data              | None       |
 

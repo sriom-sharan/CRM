@@ -1,10 +1,12 @@
+import axios from "axios";
 import express from "express";
-const dummyData = require('../mockdata/leads.json');
+import { fetchLeads } from "../controllers/leads";
 
 const leadsRouter = express.Router();
 
-leadsRouter.get('/',(req,res)=>{
-    res.json(dummyData)
-})
+leadsRouter.get("/", async (req, res) => {
+  const data = await fetchLeads();
+  res.send(data)
+});
 
 export default leadsRouter;

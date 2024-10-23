@@ -1,0 +1,100 @@
+{
+   "leads" : [
+    {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "123-456-7890",
+      "source": "Google Ads",
+      "createdAt": "2024-10-15T00:00:00Z",
+      "updatedAt": "2024-10-18T00:00:00Z"
+    },
+    {
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phone": "987-654-3210",
+      "source": "Facebook",
+      "createdAt": "2024-09-20T00:00:00Z",
+      "updatedAt": "2024-09-25T00:00:00Z"
+    },
+    {
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "555-123-4567",
+      "source": "LinkedIn",
+      "createdAt": "2024-08-05T00:00:00Z",
+      "updatedAt": "2024-08-07T00:00:00Z"
+    },
+    {
+      "name": "Bob Brown",
+      "email": "bob.brown@example.com",
+      "phone": "444-789-6541",
+      "source": "Instagram",
+      "createdAt": "2024-07-30T00:00:00Z",
+      "updatedAt": "2024-08-02T00:00:00Z"
+    },
+    {
+      "name": "Eve Green",
+      "email": "eve.green@example.com",
+      "phone": "999-321-6548",
+      "source": "Twitter",
+      "createdAt": "2024-06-15T00:00:00Z",
+      "updatedAt": "2024-06-20T00:00:00Z"
+    }
+  ]
+  ,
+  
+    "campaign": [
+      {
+        "name": "Google Ads Campaign 1",
+        "platform": "Google",
+        "status": "success",
+        "budget": 1000,
+        "spent": 950,
+        "leadsGenerated": 200,
+        "createdAt": "2024-09-01T00:00:00Z",
+        "updatedAt": "2024-09-10T00:00:00Z"
+      },
+      {
+        "name": "Facebook Ads Campaign 2",
+        "platform": "Facebook",
+        "status": "ongoing",
+        "budget": 500,
+        "spent": 300,
+        "leadsGenerated": 80,
+        "createdAt": "2024-10-01T00:00:00Z",
+        "updatedAt": "2024-10-05T00:00:00Z"
+      },
+      {
+        "name": "LinkedIn Marketing Campaign",
+        "platform": "LinkedIn",
+        "status": "failed",
+        "budget": 700,
+        "spent": 650,
+        "leadsGenerated": 30,
+        "createdAt": "2024-08-15T00:00:00Z",
+        "updatedAt": "2024-08-25T00:00:00Z"
+      },
+      {
+        "name": "Instagram Ads Campaign",
+        "platform": "Instagram",
+        "status": "success",
+        "budget": 1200,
+        "spent": 1150,
+        "leadsGenerated": 250,
+        "createdAt": "2024-07-01T00:00:00Z",
+        "updatedAt": "2024-07-10T00:00:00Z"
+      },
+      {
+        "name": "Twitter Promotions",
+        "platform": "Twitter",
+        "status": "pending",
+        "budget": 800,
+        "spent": 0,
+        "leadsGenerated": 0,
+        "createdAt": "2024-10-10T00:00:00Z",
+        "updatedAt": "2024-10-10T00:00:00Z"
+      }
+    ]
+    
+  }
+  

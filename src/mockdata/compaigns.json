@@ -1,5 +1,0 @@
-[
-    { "id": 1, "name": "Spring Sale", "budget": 1000, "leads": [1, 2] },
-    { "id": 2, "name": "Summer Promo", "budget": 2000, "leads": [1] }
-  ]
-  

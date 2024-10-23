@@ -47,6 +47,7 @@
 - **Retrieve Reports:**
     - **GET**: `http://localhost:8000/api/reports`
     - **Body Parameter (required)**: `toEmail` (If you want to send the report via email)
+    - Response: An email with an attachment.
 
 
 - **Retrieve Leads:**

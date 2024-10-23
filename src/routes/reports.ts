@@ -17,7 +17,7 @@ recordRouter.get("/", async (req, res) => {
   const path = await generatePDFReport(leads);
   const response = await sendEmailWithPDF(
     toEmail,
-    "Report",
+    "Report of Campaign",
     "Lead Report",
     path
   );
